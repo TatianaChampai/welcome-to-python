@@ -2,9 +2,8 @@ a: int = 12
 b: int = 45
 
 def swap_a_b():
-	global a
-	global b
-	a , b = b , a
+	a: int = 45
+	b: int = 12
 	pass
 
 def main():
