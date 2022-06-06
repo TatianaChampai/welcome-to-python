@@ -4,7 +4,9 @@ b: int = 45
 def swap_a_b():
 	global a
 	global b
-	# WRITE YOUR CODE HERE
+	temp = a
+	a = b
+	b = temp
 	pass
 
 def main():
